@@ -1,0 +1,15 @@
+TextBox: <input type="textbox">
+TextArea: <input type="textarea">
+CheckBox: <input type="checkbox">
+RadioButton: <input type="radio">
+DropDownList: <select>
+<option>
+</select>
+
+ListBox: multi-select list box: <select>
+Hidden: <input type="hidden">
+Password: <input type="password">
+Display: HTML text: ""
+Label: 	<label>
+Editor: Genera controles Html basados en el tipo de datos de la propiedad del modelo especificado, p. cuadro de texto para propiedad de cadena, campo numérico para int, doble u otro tipo numérico.
+ActionLink: <a></a>
