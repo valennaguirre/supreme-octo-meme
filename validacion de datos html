@@ -1,0 +1,16 @@
+Validacion de datos:
+importamos:
+using System.ComponentModel.DataAnnotations;
+
+Required: Indicamos que la propiedad no puede estar vacía.
+Range: Definimos el valor mínimo y máximo de la propiedad numérica.
+EmailAddress: Valida que el email tenga un formato correcto.
+MinLength: Definimos el mínimo número de caracteres que debe cargarse.
+ManLength: Definimos el máximo número de caracteres que debe cargarse.
+RegularExpression: Definimos una expresión regular que debe cumplir la propiedad.
+CustomValidation: Especificamos un método de validación que codificamos nosotros.
+
+Ejemplos:
+[Required(ErrorMessage = "El Nombre es obligatorio")]
+[MinLength(10, ErrorMessage = "El Nombre de usuario debe tener al menos 10 caracteres")]
+[RegularExpression("[MmFf]", ErrorMessage = "Solo puede ingresar una M o F")]
